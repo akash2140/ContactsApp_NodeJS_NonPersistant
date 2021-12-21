@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+
+#page-heading{
+    margin-top: 25px;
+    color: grey;
+    text-align: center;
+}
+
+input{
+    border: 0px;
+    border-bottom: 1px solid black;
+    /* align-items: center; */
+    /* margin-left: auto; */
+}
+
+
+#contacts-div p{
+    text-align: center;
+    background-color: lightcyan;
+    font-family: sans-serif;
+}
+
+#contacts-div p:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+
+
+#add-btn{
+    width:70px;
+    height:30px;
+    color:  white;
+    background-color: rgb(44, 43, 43);
+    border-radius: 10%;;
+}
+
+#add-btn:hover{
+    background-color:black   ;
+    cursor: pointer;
+}
+
+#contacts-div a{
+    color:red;
+    /* background-color: white; */
+}
+
+#form-content{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}

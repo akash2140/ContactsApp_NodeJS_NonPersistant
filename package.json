@@ -1,0 +1,19 @@
+{
+  "name": "nonpersistantcontactlist",
+  "version": "1.0.0",
+  "description": "This is non persistant ContactList App in Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js -e html,js,css"
+  },
+  "author": "Aakash Singh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
